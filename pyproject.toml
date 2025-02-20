@@ -1,0 +1,20 @@
+[project]
+name = "jamana"
+version = "0.1.0"
+description = "A music analyzing library for python >=3.12"
+authors = [
+    {name = "Jamin",email = "jamin.sk@yahoo.com"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.2.3,<3.0.0)",
+    "scipy (>=1.15.2,<2.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+__pycache__
+
+# Assets to be excluded (except a example.wav)
+*.wav
+!sine.wav
